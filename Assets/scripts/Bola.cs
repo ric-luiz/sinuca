@@ -15,5 +15,10 @@ public class Bola : MonoBehaviour {
 		if(rb.velocity.magnitude < 0.1 && rb.velocity.magnitude > 0){
 			rb.velocity = new Vector3(0,0,0);
 		}
+
+		//Evita que a bola pule na mesa
+		if(transform.position.y > 0.19f){
+			transform.position = new Vector3(transform.position.x,0.19f,transform.position.z);
+		}
 	}
 }

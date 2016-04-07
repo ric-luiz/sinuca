@@ -47,8 +47,7 @@
   <ItemGroup>
      <Compile Include="Assets\scripts\Barra.cs" />
      <Compile Include="Assets\scripts\Bola.cs" />
-     <Compile Include="Assets\scripts\CameraController.cs" />
-     <Compile Include="Assets\scripts\PlayerController.cs" />
+     <Compile Include="Assets\scripts\NewBehaviourScript.cs" />
      <Compile Include="Assets\scripts\PosisaoTacoBola.cs" />
      <Compile Include="Assets\scripts\Taco.cs" />
  <Reference Include="UnityEngine.UI">
